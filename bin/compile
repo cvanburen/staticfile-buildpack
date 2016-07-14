@@ -5,6 +5,8 @@ set -e            # fail fast
 set -o pipefail   # do not ignore exit codes when piping output
 # set -x          # enable debugging
 
+echo "***** Starting compile phase"
+
 # Configure directories
 build_dir=$1
 cache_dir=$2
